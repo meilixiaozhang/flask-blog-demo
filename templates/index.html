@@ -2,4 +2,20 @@
 <title>Home</title>
 {% endblock %} {% block body %}
 <h1>Home Page</h1>
+<main role="main">
+  <div class="jumbotron">
+    <div class="col-sm-8 mx-auto">
+      <h1>Welcome!</h1>
+      <p>
+        This example is a flask example with frontend templates and routes.
+      </p>
+
+      <p>
+        <a class="btn btn-primary" href="/posts" role="button"
+          >Go to posts &raquo;</a
+        >
+      </p>
+    </div>
+  </div>
+</main>
 {% endblock %}
